@@ -1,114 +1,179 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>PC Matic Review</title>
-  <link rel="stylesheet" href="style.css">
-  <!-- Favicon -->
-<link rel="icon" type="image/png" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgR6HXIFvf2WP2J8TyioT9PAk9aptmz4_G9Dnlbe6aMt0W_CifqiRGsWEyXKsOq8S0UcnMhG095WzCZuuBXMXZSCAvgufXb311w2qnL42Hg0pDUEv4wc-L-ZOvoWS56nHjhIHK6A09BWqk_g9nQcW_vjoOt7keLy8A4IfswQjQ_Huf8bK_Yo-FfRfmPkA/s320/yes.png">
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
-</head>
-<body>
+body {
+  background: #ffffff;
+  color: #333;
+  line-height: 1.6;
+}
 
-<!-- Header -->
-<header class="site-header">
-  <div class="container header-flex">
-    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgnd_qIHjWSmY1BbijweNmiAYv45di5ntumojfOaVEduxSyaSAC8G6ORDZVA_dyrj7TVG3wlGD31N7dW9npZAou8zTA8YR_CmlFxVOM_2gHhEgfjfCjcfzMPG4hLWkSO0MmbOAym85tiNh6Ub3tm4rCCQ25tm0thy87ysQVbdGGfHr_i67i7bBEbDqk/s236/logo.png" alt="logo" class="logo">
-		<!-- Smartsupp Live Chat script -->
-<script type="text/javascript">
-var _smartsupp = _smartsupp || {};
-_smartsupp.key = '8038c0fbc1e30bb63bd04ffc3d2e1081bc26a7b5';
-window.smartsupp||(function(d) {
-  var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
-  s=d.getElementsByTagName('script')[0];c=d.createElement('script');
-  c.type='text/javascript';c.charset='utf-8';c.async=true;
-  c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
-})(document);
-</script>
-<noscript>Powered by <a href="https://www.smartsupp.com" target="_blank">Smartsupp</a></noscript>
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
 
-  </div>
-</header>
+/* Header */
+.site-header {
+  background: #ffffff;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 15px 0;
+}
 
-<!-- Hero Section -->
-<section class="hero">
-  <div class="container hero-grid">
-    <!-- Left Content -->
-    <div class="hero-text">
-      <h1>PC Matic | Powerful Antivirus, Endpoint Protection & Application Safety</h1>
-      <p>
-        Get Help with PC Matic for reliable antivirus protection, advanced endpoint security, and safe application control to keep your devices secure and running smoothly..</p> 
-		<br>We are here to Assist you!.</br>
-      </p>
-    </div>
-	
-    <!-- Right Empty Space -->
-    <div class="hero-space"></div>
+.header-flex {
+  display: flex;
+  align-items: center;
+}
 
-  </div>
-</section>
+.logo {
+  height: 38px;
+}
 
-<!-- Steps Section -->
-<section class="steps">
-  <div class="container">
-    <h2>How to Get Started with PC Matic Setup?</h2>
-    <p class="subtitle">Follow the 3 Simple Steps Below & Activate Your subscription!</p>
+/* Hero Section */
+.hero {
+  background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjlqZCgz21fI2e47WBV_1y5Zz-e99c6kH1gL1c7OOg2sE0KqpMIjoHaPEjLLF5X4s7JdR5uDYxUXV21maZNhwZ1IRP9yL8P_otz9EJyjUyce_ILpaFIUncO0rRkL7I5o8WviKM8fDSEY__aEuycqLIYmVGABRYOzomBZ15bN_QEMo4iV110eLkdWeVq/s2560/head.png");
+  background-size: cover;
+  background-position: center;
+  padding: 80px 0;
+}
 
-    <div class="steps-grid">
-      <!-- Step 1 -->
-      <div class="step-card">
-        <img src="https://storage.googleapis.com/imagelibrarystorage.pluginops.com/images/uploads/2018/08/designing-custom.jpg" alt="my-account" class="step-image">
-        <h3>Already Have PC Matic Account!</h3>
-        <p>If you don't have an account, first create one.</p>
-      </div>
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  min-height: 420px;
+}
 
-      <!-- Step 2 -->
-      <div class="step-card" id="live-chat">
-        <img src="https://storage.googleapis.com/imagelibrarystorage.pluginops.com/images/uploads/2018/08/office-worker-custom.jpg" alt="Live-Chat" class="step-image">
-        <h3>Connect with Live Chat!</h3>
-        <p>Join Live Chat. Representatives are available 24/7 to help you.</p>
-      </div>
+/* Hero Text */
+.hero-text {
+  max-width: 520px;
+}
 
-      <!-- Step 3 -->
-      <div class="step-card">
-        <img src="https://storage.googleapis.com/imagelibrarystorage.pluginops.com/images/uploads/2018/08/custom-purple.jpg" alt="Enjoy-software" class="step-image">
-        <h3>Enjoy PC Matic Subscription!</h3>
-        <p>Follow the guidelines provided by the representative and enjoy your subscription.</p>
-      </div>
-    </div>
-  </div>
-</section>
+.hero-text h1 {
+  font-size: 36px;
+  color: #000000;
+  margin-bottom: 15px;
+}
 
-<!-- Background Image Section -->
-<section class="bg-image-section">
-  <!-- Empty content, image is in CSS background -->
-</section>
+.hero-text p {
+  font-size: 18px;
+  color: #000000;
+  margin-bottom: 25px;
+}
 
-<!-- System Requirements -->
-<section class="requirements">
-  <div class="container">
-    <h2>PC Matic System Requirements</h2>
-    <ul>
-  <li><strong>Operating System:</strong> Windows 7, 8, 10, or 11</li>
-  <li><strong>Processor:</strong> 1 GHz or faster CPU</li>
-  <li><strong>Memory (RAM):</strong> Minimum 2 GB RAM (4 GB recommended)</li>
-  <li><strong>Storage:</strong> At least 1 GB of free disk space</li>
-  <li><strong>Internet Connection:</strong> Required for installation and updates</li>
-</ul>
+/* CTA Button */
+.cta-btn {
+  display: inline-block;
+  background: #0077cc;
+  color: #ffffff;
+  padding: 14px 28px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+}
 
-    <!-- CTA BELOW REQUIREMENTS -->
-    <div class="requirements-cta">
-    </div>
-  </div>
-</section>
+.cta-btn:hover {
+  background: #005fa3;
+}
 
-<!-- Footer -->
-<footer class="site-footer">
-  <div class="container">
-    <p>© 2026 PC Matic Desk. All rights reserved.</p>
-  </div>
-</footer>
+/* Steps Section */
+.steps {
+  padding: 60px 0;
+  background: #f8f9fb;
+  text-align: center;
+}
 
-</body>
-</html>
+.steps h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  margin-bottom: 40px;
+}
+
+.steps-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 25px;
+}
+
+.step-card {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 6px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
+
+.step-card h3 {
+  margin-bottom: 10px;
+}
+
+.step-image {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+/* System Requirements */
+.requirements {
+  padding: 60px 0;
+}
+
+.requirements h2 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.requirements ul {
+  max-width: 600px;
+  margin: auto;
+  padding-left: 20px;
+}
+
+.requirements-cta {
+  text-align: center;
+  margin-top: 30px;
+}
+
+/* Footer */
+.site-footer {
+  background: #f1f1f1;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 14px;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .hero-grid {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .hero-text {
+    margin: auto;
+  }
+
+  .hero-text h1 {
+    font-size: 28px;
+  }
+
+  .hero-text p {
+    font-size: 16px;
+  }
+}
+.bg-image-section {
+  background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi8lMNm98aYR_h_hW03orPh07Ug32-mpIpXM4WEIt4ZzeM44ha68e8eAY5d4HpMoe84BVecfjGl9uh2zJSLMHtYMX2op4bD0whGisKarpb3AopUBr6SnDsIEDPsphUNCGMKu8h2KqQ03X2gCty3Q15xDqgWJSv4r9xCCoQTMB0rx7n8ozFcKKcKYbE4SQ/s1536/laptop.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 250px; /* Adjust height as needed */
+}
+
